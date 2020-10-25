@@ -3,32 +3,40 @@ body {
     font-family:Arial, Helvetica, sans-serif;
 }
 
-.assignment {
+.assignments {
     display:flex;
-    padding: 10px;
+    flex-wrap:wrap;
+}
+
+.assignment {
+    width:30%;
+    padding:10px;
     margin:10px;
-    margin-bottom: 30px;
+    margin-bottom:20px;
     background:whitesmoke;
-    border-radius: 5px;
-    box-shadow: 5px 5px #DC143C;
+    border-radius:5px;
+    box-shadow:5px 8px #DC143C;
 }
 
 .assignment img {
     width:200px;
-    border: 2px solid #191970;
-    margin-right: 20px;
-    border-radius: 5px;
+    border:2px solid #191970;
+    margin-right:20px;
+    border-radius:5px;
+    display:block;
+    margin:auto;
 }
 
 h1 {
-    color: #191970;
+    color:#191970;
     text-align:center;
 }
+
 a {
     text-decoration:none;
     color:#DC143C;
 }
 
 .assignment a:hover {
-    color: #191970;
+    color:#191970;
 }
